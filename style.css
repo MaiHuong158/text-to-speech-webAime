@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(6, 31, 78);
+}
+
+.select-lang-btn {
+display: flex;
+margin-bottom: 30px;
+}
+
+.button.lang {
+    margin: 15px;
+    width: 50px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=button] {
+    display: none;
+
+}
+
+input[type=radio] {
+    display: block;
+    transform: translate(15px,40px);
+}
+
+.button.vietnam.lang {
+    background-image: url("/img/vn.png");
+    background-size: cover;
+}
+
+.button.japan.lang {
+    background-image: url("/img/jp.png");
+    background-size: cover;
+}
+
+.button.en.lang {
+    background-image: url("/img/en.png");
+    background-size: cover;
+}
+
+#app {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    margin: 50px;
+}
+
+.form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    box-shadow: 2px 2px 2px 2px #ccc;
+}
+
+.submit.listen {
+    background-color: rgb(143, 200, 250);
+    color: #000000;
+    height: 32px;
+    width: 120px;
+    margin-top: 30px;
+    margin: 30px 150px;
+    border: none;
+    outline: none;
+    font-size: 13px;
+}
+
+.submit.listen:hover {
+    background-color: rgb(40, 106, 210);
+    color: #ffffff;
+    cursor: pointer;
+    
+}
+
+.textarea.input-text {
+    border: none;
+    background-color: white;
+    font-size: 15px;
+    padding: 30px 40px 40px 40px;
+    line-height: 22px;
+    outline: none;
+}

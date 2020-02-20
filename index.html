@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="/js/index.js"></script>
+    <script src="/js/jquery.js"></script>
+    <script src="/js/eventemiter.js"></script>
+    <script src="/js/text-break.js"></script>
+    <script src="/js/text-play.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <div class="select-lang-btn">
+            <div class="button vietnam lang">
+                <input type="radio" value="a" name="lang" />
+            </div>
+            <div class="button japan lang">
+                <input type="radio" value="b" name="lang" />
+            </div>
+            <div class="button en lang">
+                <input type="radio" value="c" name="lang" />
+            </div>
+        </div>
+        <form action="#">
+            <textarea 
+            class="textarea input-text" 
+            name="" 
+            id="input-text" 
+            cols="40" 
+            rows="15"
+            placeholder = "Input text here... to convert to speech" 
+            required></textarea>
+            <div>
+                <button class="submit listen">Listen</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
